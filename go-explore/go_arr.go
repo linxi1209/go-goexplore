@@ -2,11 +2,6 @@ package main
 
 import "fmt"
 
-//todo 包管理，import class
-//import (
-//	"github.com/go-goexplore/go-explore/Ver"
-//)
-
 //1 数组
 func goArr() {
 	//声明赋值1

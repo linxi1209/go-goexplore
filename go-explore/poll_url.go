@@ -15,7 +15,7 @@ func main() {
 	for _, url := range urls {
 		resp, err := http.Head(url)
 		if err != nil {
-			fmt.Println("Error:", url, err)
+			fmt.print("Error:", url, err)
 		}
 		fmt.Println("response:", resp.Status)
 	}
